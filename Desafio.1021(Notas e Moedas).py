@@ -1,70 +1,37 @@
-Valor = float(input())
+#Desafio Notas e Moedas
 
-N_100 = 0
-N_50 = 0
-N_20 = 0
-N_10 = 0
-N_5 = 0
-N_2 = 0
+valor = float(input())
 
-M_1 = 0
-M_50 = 0
-M_25 = 0
-M_10 = 0
-M_05 = 0
-M_01 = 0
+list =(
+100.00, 50.00, 20.00, 10.00, 5.00, 2.00, 
+1.00,  0.50, 0.25, 0.10, 0.05, 0.01,
+)
 
-while Valor > 0.00:
-    if Valor >= 100.00:
-        N_100 += 1
-        Valor -= 100.00
-    
-    elif Valor >= 50.00:
-         N_50 += 1
-         Valor -= 50.00
+N_100 = valor // list[0]
+resto = valor % list[0]
+N_50 = resto // list[1]
+resto = resto % list[1]
+N_20 = resto // list[2]
+resto = resto % list[2]
+N_10 = resto // list[3]
+resto = resto % list[3]
+N_5 = resto // list[4]
+resto = resto % list[4]
+N_2 = resto // list[5]
+resto = resto % list[5]
 
-    elif Valor >= 20.00:
-         N_20 += 1
-         Valor -= 20.00
-
-    elif Valor >= 10.00:
-         N_10 += 1
-         Valor -= 10.00
-
-    elif Valor >= 5.00:
-         N_5 += 1
-         Valor -= 5.00
-
-    elif Valor >= 2.00:
-        N_2 += 1
-        Valor -= 2.00
-
-    elif Valor >= 1.00:
-        M_1 += 1
-        Valor -= 1.00
-
-    elif Valor >= 0.50:
-        M_50 += 1
-        Valor -= 0.50
-
-    elif Valor >= 0.25:
-        M_25 += 1
-        Valor -= 0.25
-
-    elif Valor >= 0.10:
-        M_10 += 1
-        Valor -= 0.10
-
-    elif Valor >= 0.05:
-        M_05 += 1
-        Valor -= 0.05
-
-    else:
-        Valor >= 0.01
-        M_01 += 1
-        Valor -= 0.01
-
-
+M_1 = resto // list[6]
+resto = resto % list[6]
+M_50 = resto // list[7]
+resto = resto % list[7]
+M_25 = resto // list[8]
+resto = resto % list[8]
+M_10 = resto // list[9]
+resto = resto % list[9]
+M_05 = resto // list[10]
+resto = resto % list[10]
+M_01 = resto / list[11]
+resto = resto % list[11]
 
 
 print("NOTAS:")

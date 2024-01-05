@@ -60,7 +60,7 @@ while Valor > 0.00:
         Valor -= 0.05
 
     else:
-        Valor > 0.01
+        Valor >= 0.01
         M_01 += 1
         Valor -= 0.01
 

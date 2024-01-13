@@ -1,20 +1,13 @@
 #Desafio Multiplos
 
-A, B = map(int, input().split())
-cont = 0
-result = False
-
-while cont <= 11 and result == False :
-    result = A * cont
-    cont += 1
-    if result == B:
-        result = True
+def sao_multiplos(A, B):
+    if A % B == 0 or B % A == 0:
+        return "Sao Multiplos"
     else:
-        result = False
+        return "Nao sao Multiplos"
 
-if result == True:
-    print("Sao Multiplos")
+A, B = map(int, input().split())
 
-else:
-    print("Nao sao Multiplos")
-    
+
+resultado = sao_multiplos(A, B)
+print(resultado)

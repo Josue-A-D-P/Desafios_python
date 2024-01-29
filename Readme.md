@@ -49,7 +49,3 @@ Sinta-se à vontade para contribuir com novos desafios ou melhorias nas soluçõ
 - Certifique-se de fornecer uma descrição clara e concisa do desafio.
 - Inclua exemplos de entrada e saída para facilitar os testes.
 - Se possível, comente seu código para explicar a lógica utilizada.
-
-## Licença
-
-Este projeto é licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.

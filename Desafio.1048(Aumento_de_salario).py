@@ -1,6 +1,7 @@
 # Desafio 1048 Aumento de salario:
 
-'''A empresa ABC resolveu conceder um aumento de salários a seus funcionários de acordo com a tabela abaixo:
+'''A empresa ABC resolveu conceder um aumento de salários a seus funcionários de acordo com a 
+tabela abaixo:
 
 
 Salário	Percentual de Reajuste:
@@ -10,13 +11,15 @@ Salário	Percentual de Reajuste:
     1200.01 - 2000.00   7%
     Acima de 2000.00    4%
 
-Leia o salário do funcionário e calcule e mostre o novo salário, bem como o valor de reajuste ganho e o índice reajustado, em percentual.
+Leia o salário do funcionário e calcule e mostre o novo salário, bem como o valor de reajuste 
+ganho e o índice reajustado, em percentual.
 
 Entrada
 A entrada contém apenas um valor de ponto flutuante, com duas casas decimais.
 
 Saída
-Imprima 3 linhas na saída: o novo salário, o valor ganho de reajuste (ambos devem ser apresentados com 2 casas decimais) e o percentual de reajuste ganho, conforme exemplo abaixo.
+Imprima 3 linhas na saída: o novo salário, o valor ganho de reajuste (ambos devem ser 
+apresentados com 2 casas decimais) e o percentual de reajuste ganho, conforme exemplo abaixo.
 
 Exemplo de Entrada:
 400.00

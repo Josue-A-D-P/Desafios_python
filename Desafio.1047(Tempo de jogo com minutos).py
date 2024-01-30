@@ -1,6 +1,7 @@
 #Desafio 1047 Tempo de jogo com minutos:
 
-'''Leia a hora inicial, minuto inicial, hora final e minuto final de um jogo. A seguir calcule a duração do jogo.
+'''Leia a hora inicial, minuto inicial, hora final e minuto final de um jogo. A seguir 
+calcule a duração do jogo.
 
 Obs: O jogo tem duração mínima de um (1) minuto e duração máxima de 24 horas.
 
